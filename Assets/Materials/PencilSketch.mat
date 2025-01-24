@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4718349767120086685
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PencilSketch
+  m_Shader: {fileID: 4800000, guid: 8d87fefb7d60b974bbc1901786a62aff, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrushTex:
+        m_Texture: {fileID: 2800000, guid: 9a827724ac5722d43813d02ce95292df, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DitherPattern:
+        m_Texture: {fileID: 2800000, guid: 6b7228dd197633243a55b75c30d9ca07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HatchTex0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HatchTex1:
+        m_Texture: {fileID: 2800000, guid: cefa0f187cf921048b05775162c66b7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HatchTex2:
+        m_Texture: {fileID: 2800000, guid: ccdca12f7e7a0c44789e8a2a5f5e69aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cefa0f187cf921048b05775162c66b7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaperTex:
+        m_Texture: {fileID: 2800000, guid: b3afaaf0a08aa454a9021f5315fca31b, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 1, y: 1}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PencilTex1:
+        m_Texture: {fileID: 2800000, guid: ccdca12f7e7a0c44789e8a2a5f5e69aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PencilTex2:
+        m_Texture: {fileID: 2800000, guid: 8eb4f8ac145b54b4dba093b92c3df443, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaClipThreshold: 0.4
+    - _AlphaToMask: 0
+    - _AmbientStrength: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BlendOp: 0
+    - _BrushStrength: 0.45
+    - _BrushTextureIntensity: 2
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DitherIntensity: 0.09
+    - _DitherStrength: 0
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EdgeSoftness: 0.12
+    - _EdgeThreshold: 1
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _HatchScale: 1
+    - _LightIntensity: 1
+    - _LineFrequency: 105
+    - _LineIntensity: 0.635
+    - _LineNoiseIntensity: 1
+    - _LineNoiseScale: 10
+    - _LineThickness: 0.0141
+    - _Metallic: 0
+    - _NoiseIntensity: 0.16
+    - _OcclusionStrength: 1
+    - _OutlineThickness: 0.01
+    - _PaperStrength: 0.1
+    - _PaperTextureIntensity: 1.72
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SampleGI: 0
+    - _Shades: 1.5
+    - _ShadowDitherIntensity: 0
+    - _ShadowIntensity: 0
+    - _ShadowStrength: 0.5
+    - _ShadowThreshold: 0.31
+    - _SketchBrightness: 1.6
+    - _SketchContrast: 1.06
+    - _SketchScale: 8
+    - _SketchScale1: 1
+    - _SketchScale2: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularPower: 8.5
+    - _SpecularStrength: 0.5
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _Threshold1: 0.79
+    - _Threshold2: 0.32
+    - _Threshold3: 0.24
+    - _UseAlphaClip: 0
+    - _WatercolorBleed: 0.02
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BrushColor: {r: 0, g: 0.74509805, b: 0.59490186, a: 1}
+    - _BrushTex_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _BrushTex_Scale: {r: 10, g: 10, b: 1, a: 1}
+    - _BrushTex_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CustomShadowColor: {r: 0, g: 0, b: 0.15471691, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainTex_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _MainTex_Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTex_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PaperColor: {r: 0.6349519, g: 0.9420407, b: 0.96981126, a: 1}
+    - _PaperTex_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _PaperTex_Scale: {r: 3, g: 3, b: 1, a: 1}
+    - _PaperTex_Tiling: {r: 4.99, g: 1, b: 4.54, a: -2.1}
+    - _ShadeShadowColor: {r: 0, g: 0.0679929, b: 0.3056603, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
